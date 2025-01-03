@@ -1,0 +1,108 @@
+.main{
+  display: flexbox;
+  flex-direction: row;
+  flex: 1;
+}
+.menu{
+  position: sticky;
+  width: 100%;
+  padding: 0px 0;
+  position: sticky;
+  top: 0%;
+}
+header{
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  
+}
+.headtitle{
+  width: 100%;
+  background-color: aqua;
+margin-bottom: 0%;
+}
+.navi{
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  
+
+}
+.navi div{
+  color: white;
+}
+.navi div a{ 
+  color: white;
+  text-decoration: none;
+}
+.actionanime{
+  text-align: center;
+}
+.animename{
+font-size: 20px;
+font-weight: 420;
+background-color: lightblue;
+}
+.animeimage{
+  width: 150px;
+  background-color: aliceblue;
+}
+.animeinfodiv{
+  justify-content: center;
+  text-align: center;
+}
+.animeintro{
+
+  text-align: justify;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.actionanime {
+  line-height: 20px;
+  background-color: whitesmoke;
+}
+.animeinfodiv{
+  text-align: center;
+}
+nav:hover{
+  box-shadow: 3px 3px 5px rgba(0,0,0.7);
+}
+nav{
+  transition: box-shadow 0.2s;
+}
+a:hover{
+  opacity: 0.5;
+}
+footer{
+  height: 60px;
+  background-color: gray;
+  text-align: center;
+  justify-content: middle
+  
+}
+footer span{
+  justify-items: center;
+}
+
+.footimg{
+  margin-top: 4px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.footimg:hover{
+ cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+span{
+  color: white;
+}
+.p{
+  font-family: Roboto,Arial;
+  font-size: 25px;
+  font-weight: 430;
+}
